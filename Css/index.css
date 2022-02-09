@@ -1,0 +1,117 @@
+/*STYYLE POUR TOUT LE CORP*/
+body{
+max-width: 90%;
+margin: auto;
+font-family: serif;
+word-spacing: 0.2em;
+color: rgb(37, 19, 1);
+font-size: 1em;
+background: linear-gradient(#d8a20f, #ec9634);
+background-image: url(../image/une-belle-journee-d-automne-s-acheve-1636971929.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+}
+
+/*COULEUR GOOD AND BAD*/
+.good-green{
+color: green;
+}
+.bad-red{
+color: red;
+}
+    
+    
+/*STYLE POUR LE HEADER*/
+header{
+margin-bottom: 30px;
+}
+header h2{
+background-color: #eebf3d;
+}
+
+h1{
+text-align: center;
+font-size: 160%;
+width: 50%;
+background-color: darkgrey;
+margin: auto;
+border-left: 3px firebrick solid;
+padding-left: 30px;
+margin-top: 80px;
+margin-bottom: 30px;
+}
+
+#they{
+color: blueviolet;
+}
+
+#farmer{
+color: deeppink;
+}
+
+#neighbors{
+color: tomato;
+}
+
+
+
+
+/*STYLE POUR LA SECTION ENTIERE*/ 
+th , td{
+padding: 15px;
+text-align: left;
+}
+
+tr:nth-child(even){
+background-color: grey;
+color: white;
+}
+
+
+tr{
+background-color: white;
+color: black;
+}
+
+/*STYLE TABLE*/
+table{
+margin-top: 40px;    
+border: 3px solid black;
+width: 100%;
+}
+
+ 
+/*FOOTER*/
+footer {
+margin-top: 40px;
+margin-bottom: 40px; 
+}   
+
+a{
+padding-left: 50%;
+}
+
+/*FLOAT POUR IMAGE*/
+.first-image{
+float: left;  
+width: 650px;
+height: 400px;
+margin-right: 15px;
+margin-top: 10px;
+}
+
+.second-image{
+display: block;
+margin-right: auto; 
+margin-top: 40px;
+}
+
+.third-image{
+float: right;
+margin-left: 20px;
+width: 650px;
+height: 455px;
+}
+
